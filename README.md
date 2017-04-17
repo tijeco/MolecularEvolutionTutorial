@@ -3,7 +3,7 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 ### Installing PAML (macosx)
 
 ```bash
-wget http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz
+curl http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz >paml4.8a.macosx.tgz
 tar -xvzf paml4.8a.macosx.tgz
 cd paml4.8a.macosx
 rm bin/*.exe
@@ -16,7 +16,7 @@ cd ..
 ls -lF bin
 bin/baseml
 bin/codeml
-bin/evolver 
+bin/evolver
 ```
 
 See http://abacus.gene.ucl.ac.uk/software/paml.html for **Windows** installation instructions.
