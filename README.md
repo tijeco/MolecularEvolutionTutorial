@@ -5,7 +5,7 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 ```bash
 curl http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz > paml4.8a.macosx.tgz
 tar -xvzf paml4.8a.macosx.tgz
-cd paml4.8a
+cd paml4.8
 rm bin/*.exe
 cd src
 make -f Makefile
