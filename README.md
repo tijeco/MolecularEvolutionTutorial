@@ -3,9 +3,9 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 ### Installing PAML (macosx)
 
 ```bash
-curl http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz >paml4.8a.macosx.tgz
+curl http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz > paml4.8a.macosx.tgz
 tar -xvzf paml4.8a.macosx.tgz
-cd paml4.8a.macosx
+cd paml4.8a
 rm bin/*.exe
 cd src
 make -f Makefile
