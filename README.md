@@ -18,6 +18,11 @@ bin/baseml
 bin/codeml
 bin/evolver 
 ```
+
+See http://abacus.gene.ucl.ac.uk/software/paml.html for **Windows** installation instructions.
+
+
+
 All the files needed for this tutorial are located  **[here](https://drive.google.com/file/d/0ByIk6IH2yiS0eWhQLWRVT3pBdTQ/view?usp=sharing)**
 
 ## Identification of positive seleciton in the serine/threonine-protein kinase gene family
