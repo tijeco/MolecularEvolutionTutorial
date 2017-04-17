@@ -14,9 +14,7 @@ rm *.o
 mv baseml basemlg codeml pamp evolver yn00 chi2 ../bin
 cd ..
 ls -lF bin
-bin/baseml
-bin/codeml
-bin/evolver
+export PATH=$PATH:bin
 ```
 
 See http://abacus.gene.ucl.ac.uk/software/paml.html for **Windows** installation instructions.
