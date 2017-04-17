@@ -1,6 +1,23 @@
 # Molecular Evolution Tutorial
 Tutorial for BIOL 6210 (Applied Pylogentics)
+### Installing PAML (macosx)
 
+```bash
+wget http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz
+tar -xvzf paml4.8a.macosx.tgz
+cd paml4.8a.macosx
+rm bin/*.exe
+cd src
+make -f Makefile
+ls -lF
+rm *.o
+mv baseml basemlg codeml pamp evolver yn00 chi2 ../bin
+cd ..
+ls -lF bin
+bin/baseml
+bin/codeml
+bin/evolver 
+```
 All the files needed for this tutorial are located  **[here](https://drive.google.com/file/d/0ByIk6IH2yiS0eWhQLWRVT3pBdTQ/view?usp=sharing)**
 
 ## Identification of positive seleciton in the serine/threonine-protein kinase gene family
