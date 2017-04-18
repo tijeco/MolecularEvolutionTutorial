@@ -1,7 +1,7 @@
 # Molecular Evolution Tutorial
 Tutorial for BIOL 6210 (Applied Pylogentics)
 
-# HYPHY stuff: all files need for this tutorial are **[here](https://drive.google.com/file/d/0ByIk6IH2yiS0eWhQLWRVT3pBdTQ/view?usp=sharing)**
+# HYPHY stuff: all files need for this tutorial are **[here](https://github.com/tijeco/MolecularEvolutionTutorial/raw/master/CodeML.files.zip)**
 
 # Identification of pervasive positive selection in cone snail venom
 
@@ -28,10 +28,12 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 
 **7.** For now leave everything else alone and just press ***Run***
 * If you had a nexus file, you could specify your own tree in Newick format
-* For now we'll just let it use a generated neighbor joining tree 
+* For now we'll just let it use a generated neighbor joining tree
  :cry:
 
-**8.** The results will look like the following ![This file is gone now](https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/ex.svg)
+**8.** The results will look like the following ![This file is gone now](https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/fubarResults.png)
+
+* This is a heat map showing sites are under positive selection and negative selection
 
 
 
