@@ -28,7 +28,7 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 
 **7.** For now leave everything else alone and just press ***Run***
 * If you had a nexus file, you could specify your own tree in Newick format
-* For now we'll just let it use a generated neighbor joining tree
+* For now we'll just let it use a generated neighbor joining tree 
  :cry:
 
 **8.** The results will look like the following ![This file is gone now](https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/ex.svg)
