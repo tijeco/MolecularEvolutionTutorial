@@ -1,27 +1,43 @@
 # Molecular Evolution Tutorial
 Tutorial for BIOL 6210 (Applied Pylogentics)
-### Installing PAML (macosx)
 
-```bash
-curl http://abacus.gene.ucl.ac.uk/software/paml4.8a.macosx.tgz > paml4.8a.macosx.tgz
-tar -xvzf paml4.8a.macosx.tgz
-cd paml4.8
-rm bin/*.exe
-cd src
-make -f Makefile
-ls -lF
-rm *.o
-mv baseml basemlg codeml pamp evolver yn00 chi2 ../bin
-cd ..
-ls -lF bin
-export PATH=$PATH:bin
-```
+# HYPHY stuff: all files need for this tutorial are **[here](https://drive.google.com/file/d/0ByIk6IH2yiS0eWhQLWRVT3pBdTQ/view?usp=sharing)**
 
-See http://abacus.gene.ucl.ac.uk/software/paml.html for **Windows** installation instructions.
+# Identification of pervasive positive selection in cone snail venom
+
+**1.** Get the file ***Conus.01.fas***
+* This is our translated alignment
+
+![alt tag](http://www.tijeco.info/wp-content/uploads/2017/04/Superfamily-O1-1.png)
+
+**2.** We will now do the FUBAR analysis
+* This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios
 
 
+ **3.** Go to http://www.datamonkey.org/dataupload.php
 
-## All the files needed for this tutorial are located  **[here](https://drive.google.com/file/d/0ByIk6IH2yiS0eWhQLWRVT3pBdTQ/view?usp=sharing)**
+ **4. ** Select  choose file, select ***Conus.01.fas***
+* Then, press Upload
+
+***5.*** If your data is no bueno, this is where it will let you know
+* It accepts fasta alignments and nexus files
+* Also listed here should be information about the alignments
+* If all is well, press ***Proceed to the analysis menu***
+
+**6.** Under ***Method*** select ***FUBAR***
+
+**7.** For now leave everything else alone and just press ***Run***
+* If you had a nexus file, you could specify your own tree in Newick format
+* For now we'll just let it use a generated neighbor joining tree
+ :cry:
+
+**8.** The results will look like the following ![This file is gone now](http://datamonkey.org/cgi-bin/datamonkey/wrapHyPhyBF.pl?file=fubar_plotter&arguments=upload.438275211022887.1-0-svg&mode=4)
+
+
+
+
+* **
+# PAML stuff  
 
 ## Identification of positive seleciton in the serine/threonine-protein kinase gene family
 
