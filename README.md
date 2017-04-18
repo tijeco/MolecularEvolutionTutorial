@@ -17,7 +17,7 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
  **3.** Go to http://www.datamonkey.org/dataupload.php
 
  **4. ** Select  choose file, select ***Conus.01.fas***
-* Then, press Upload
+* Then, press ***Upload***
 
 ***5.*** If your data is no bueno, this is where it will let you know
 * It accepts fasta alignments and nexus files
