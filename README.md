@@ -31,7 +31,7 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 * For now we'll just let it use a generated neighbor joining tree
  :cry:
 
-**8.** The results will look like the following ![This file is gone now](http://datamonkey.org/cgi-bin/datamonkey/wrapHyPhyBF.pl?file=fubar_plotter&arguments=upload.438275211022887.1-0-svg&mode=4)
+**8.** The results will look like the following ![This file is gone now](https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/ex.svg)
 
 
 
