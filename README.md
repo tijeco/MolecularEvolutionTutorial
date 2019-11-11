@@ -6,15 +6,13 @@ Tutorial for BIOL 6210 (Applied Pylogentics)
 # Identification of pervasive positive selection in cone snail venom
 
 **1.** Get the file ***Conus.01.fas***
-* This is our translated alignment
 
-![alt tag](http://www.tijeco.info/wp-content/uploads/2017/04/Superfamily-O1-1.png)
 
 **2.** We will now do the FUBAR analysis
 * This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios
 
 
- **3.** Go to http://www.datamonkey.org/dataupload.php
+ **3.** Go to http://www.datamonkey.org/
 
  **4. ** Select  choose file, select ***Conus.01.fas***
 * Then, press ***Upload***
